@@ -2,6 +2,7 @@
   <h1>{{title}}</h1>
   <dol-loader></dol-loader>
   <dol-results [results]="ruledata"></dol-results>
+   <hr/>
   <div class="dol-controls cf" formGroupName="input">
     <dol-selector [selectors]="lob" formControlName="lob" title="LOB"></dol-selector>
     <dol-selector [selectors]="status" [width]="medium" formControlName="status" title="Policy Status"></dol-selector>

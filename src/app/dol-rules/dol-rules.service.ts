@@ -13,19 +13,19 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'need'
+                            'signature': 'need'
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'withheld',
-                            'sign': 'no need'
+                            'signature': 'not required'
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'nigo',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unsolicited': {
@@ -33,19 +33,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -53,19 +53,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 },
@@ -75,21 +75,21 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         }
                     },
@@ -98,19 +98,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -118,19 +118,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 },
@@ -140,21 +140,21 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         }
                     },
@@ -163,19 +163,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -183,19 +183,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 }
@@ -207,19 +207,19 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'need'
+                            'signature': 'need'
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'withheld',
-                            'sign': 'no need'
+                            'signature': 'not required'
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'nigo',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unsolicited': {
@@ -227,19 +227,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -247,19 +247,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 },
@@ -269,21 +269,21 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         }
                     },
@@ -292,19 +292,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -312,19 +312,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 },
@@ -334,21 +334,21 @@ export class DOLRulesDataService {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'no fi': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         },
                         'unknown': {
                             'scenario': 'valid',
                             'order': 'igo',
                             'commission': 'pay',
-                            'sign': 'no need'
+                            'signature': 'not required'
 
                         }
                     },
@@ -357,19 +357,19 @@ export class DOLRulesDataService {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'invalid',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     },
                     'unknown': {
@@ -377,19 +377,19 @@ export class DOLRulesDataService {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'no fi': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         },
                         'unknown': {
                             'scenario': 'NA',
                             'order': 'NA',
                             'commission': 'NA',
-                            'sign': 'NA'
+                            'signature': 'NA'
                         }
                     }
                 }

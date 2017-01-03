@@ -31,7 +31,7 @@ export class DolRulesComponent implements OnInit {
         })
     };
 
-    private results: Array<String> = ['scenario', 'order', 'commission', 'sign'];
+    private results: Array<String> = ['scenario', 'order', 'commission', 'signature'];
 
     private lob: Array<String> = ['FIA', 'VA'];
     private status: Array<String> = ['active', 'pending'];
