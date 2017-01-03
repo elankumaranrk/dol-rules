@@ -1,0 +1,37 @@
+<form class="dol-rules" [formGroup]="dol">
+  <h1>{{title}}</h1>
+  <dol-loader></dol-loader>
+  <dol-results [results]="ruledata"></dol-results>
+  <div class="dol-controls cf" formGroupName="input">
+    <dol-selector [selectors]="lob" formControlName="lob" title="LOB"></dol-selector>
+    <dol-selector [selectors]="status" [width]="medium" formControlName="status" title="Policy Status"></dol-selector>
+    <dol-selector [selectors]="quals" [width]="large" formControlName="qual" title="Qualified Indicator"></dol-selector>
+    <dol-selector [selectors]="sols" [width]="large" formControlName="sol" title="Solicited Indicator"></dol-selector>
+    <dol-selector [selectors]="fi" [width]="medium" formControlName="fi" title="Financial Indicator"></dol-selector>
+  </div>
+  <hr/>
+  <div class="dol-controls cf inputs" formGroupName="query">
+    <dol-input title="Policy Number"><input type="text" class="queryInputs" formControlName="policy" /></dol-input>
+    <dol-input title="Payment Amount"><input type="text" [textMask]="moneyMask" class="queryInputs" formControlName="money" placeholder="$ 2,000.50" /></dol-input>
+    <dol-input title="Payment Date"><input type="text" [textMask]="dateMask" class="queryInputs" formControlName="date" placeholder="05/18/2017" /></dol-input>
+
+    <dol-input (click)="searchPolicy()" class="search" tabindex="0" title="Search" [class.searchValid]="!dol.invalid" [class.searchInValid]="dol.invalid">
+      <svg [class.searchValid]="!dol.invalid" [class.searchInValid]="dol.invalid" class="searchBtn" fill="#008dff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+        />
+        <path d="M0 0h24v24H0z" fill="none" />
+      </svg>
+    </dol-input>
+  </div>
+  <!--<dol-query formGroupName="q"></dol-query>-->
+  <div class="dol-rules__notice">
+    <p>
+      The actual amount of range that you experience will vary based on your particular use conditions. See how particular use
+      conditions may affect your range in our simulation model.
+    </p>
+    <p>
+      Vehicle range may vary depending on the vehicle configuration, battery age and condition, driving style and operating, environmental
+      and climate conditions.
+    </p>
+  </div>
+</form>

@@ -1,0 +1,8 @@
+<div class="dol-results">
+    <ul>
+        <li *ngFor="let result of results">
+            <div class="dol-results-icon dol-results-icon--{{result.name|lowercase}}">{{result.name}}</div>
+            <p>{{result.value}}</p>
+        </li>
+    </ul>
+</div>

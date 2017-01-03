@@ -1,0 +1,17 @@
+<div class="dol-selector">
+  <div [class.dol-selector__large]="'large'==width" [class.dol-selector__medium]="'medium'==width">
+    <p class="dol-selector__title">{{title}}</p>
+    <div class="dol-selector__container cf">
+      <div class="dol-selector__item" (keydown)="onKeyUp($event)" (blur)="onBlur($event)" (focus)="onFocus($event)" tabindex="0">
+        <p class="dol-selector__number">
+          {{value}}
+          <span>{{unit}}</span>
+        </p>
+        <div class="dol-selector__controls" tabindex="-1">
+          <button tabindex="-1" (click)="increment()" [disabled]="index === max || noEdit"></button>
+          <button tabindex="-1" (click)="decrement()" [disabled]="index === min || noEdit"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
