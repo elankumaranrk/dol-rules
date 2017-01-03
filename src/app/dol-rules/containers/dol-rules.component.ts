@@ -54,7 +54,7 @@ export class DolRulesComponent implements OnInit {
             query: this.fb.group({
                 policy: ['', Validators.required],
                 money: ['', Validators.required],
-                date: ['',Validators.required]
+                date: ['', [Validators.required, Validators.pattern('[0-9]{2}/[0-9]{2}/[0-9]{4}')]]
             })
         });
         this.models = this.dolService.getData();
