@@ -5,10 +5,15 @@
    <hr/>
   <div class="dol-controls cf" formGroupName="input">
     <dol-selector [selectors]="lob" formControlName="lob" title="LOB"></dol-selector>
+    
     <dol-selector [selectors]="status" [width]="medium" formControlName="status" title="Policy Status"></dol-selector>
-    <dol-selector [selectors]="quals" [width]="large" formControlName="qual" title="Qualified Indicator"></dol-selector>
-    <dol-selector [selectors]="sols" [width]="large" formControlName="sol" title="Solicited Indicator"></dol-selector>
-    <dol-selector [selectors]="fi" [width]="medium" formControlName="fi" title="Financial Indicator"></dol-selector>
+     <dol-selector [selectors]="quals" [width]="large" formControlName="fi" title="Policy Ind."></dol-selector>
+
+    <dol-selector [selectors]="quals" [width]="large" formControlName="qual" title="Qualified Ind."></dol-selector>
+    <dol-selector [selectors]="sols" [width]="large" formControlName="sol" title="Solicited Ind."></dol-selector>
+    <dol-selector [selectors]="fi" [width]="medium" formControlName="fi" title="Financial Ind."></dol-selector>
+
+     <dol-selector [selectors]="sign"  formControlName="fi" title="Sign Received"></dol-selector>
   </div>
   <hr/>
   <div class="dol-controls cf inputs" formGroupName="query">

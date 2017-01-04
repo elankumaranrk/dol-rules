@@ -38,6 +38,7 @@ export class DolRulesComponent implements OnInit {
     private quals: Array<String> = ['unknown', 'qualified', 'non qualified'];
     private sols: Array<String> = ['unknown', 'unsolicited', 'solicited'];
     private fi: Array<String> = ['unknown', 'no fi', 'fi'];
+        private sign: Array<String> = ['yes', 'no'];
 
 
     constructor(public fb: FormBuilder, private dolService: DOLRulesDataService) { }
